@@ -1,5 +1,5 @@
 Title: Dynamic Image Card Generator with Date & Time
-![Image](https://github.com/user-attachments/assets/6ab229f2-a5f9-44e
+
 
 ![Image](https://github.com/user-attachments/assets/ff37b814-a00e-405b-b311-82c333a85cf2)
 
