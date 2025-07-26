@@ -5,11 +5,6 @@ Title: Dynamic Image Card Generator with Date & Time
 
 5-bc47-a7cc057c32e0)
 
-![Image](https://github.com/user-attachments/assets/762b6d8a-d9f5-404b-8302-b20350931ae4)
-
-![Image](https://github.com/user-attachments/assets/1584b620-a2c8-4ef3-92de-a46fca90de16)
-
-![Image](https://github.com/user-attachments/assets/23b661ea-6a3a-4867-b2bf-6abe80aa596c)
 Description:
 Ye project ek simple DOM Manipulation based web app hai jisme user image ka URL input karega, aur submit karte hi ek image card create hoga. Har card ke niche current date aur time automatically show hota hai.
 
