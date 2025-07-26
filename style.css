@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(22, 134, 130);
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo h2 {
+  font-weight: 300;
+}
+span {
+  font-size: xx-large;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 120px;
+  text-align: center;
+
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+
+}
+nav ul li:hover{
+  color: black;
+  text-decoration: underline;
+}
+/* Make the container full screen and use image as background */
+.login-container {
+  height: 25vh; /* Full height */
+  width: 100%;   /* Full width */
+  background: url("https://images.freeimages.com/images/large-previews/d75/los-chorros-grecia-costa-rica-2-1342561.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the form */
+.login-container form {
+  /* background: rgba(255, 255, 255, 0.8); Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  /* width: 300px; */
+}
+
+/* Style inputs */
+.login-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.icon {
+  position: absolute;
+
+  cursor: pointer;
+  background-color: rgb(22, 134, 130);
+  border: none;
+  top: 50%; /* Center vertically */
+  left: 58%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+
+  padding: 7px ;
+  border-radius: 2px;
+ 
+}
+.icon i{
+  font-weight: 700;
+}
+main{
+  /* background-color: aqua; */
+  /* height: 50vh;
+  width: 90vw; */
+  margin: 50px 120px;
+  /* border: 2px solid black; */
+  
+
+}
+.viedo-container{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.page-no{
+  display: flex;
+  gap: 4px;
+  padding-right: 15px;
+}
+.no{
+padding: 0px 9px;
+  border: 2px solid rgb(246, 243, 243);
+  background-color: rgb(207, 203, 203);
+  font-size: 13px;
+  border: none;
+  padding-top: 3px;
+}
+.page-no p{
+  font-size: 13px;
+ color: (22, 134, 130);
+ padding: 2px;
+
+
+}
+.img-conatiner img{
+  /* border: 2px soild red; */
+     width: 300px;
+    height: 180px;
+    box-sizing: border-box;
+}
+.date-time{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0px 10px;
+
+  
+}
+.date-time pd{
+  font-size: 13px;
+  padding-top: 5px;
+}
+.date-time pv{
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.img-card{
+  /* border: 2px solid red; */
+  width: 19.5vw;
+
+}
+.card{
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  row-gap: 17px;
+ 
+ 
+
+}
+
+.page-slider{
+margin-top: 90px;
+
+ 
+}
+.btn{
+     display: flex;
+    justify-content:space-between;
+
+}
+.perview{
+  padding: 10px 40px;
+  border-radius: 2px;
+  border: none;
+   background-color: rgb(22, 134, 130);
+   color:white;
+   cursor: pointer;
+ 
+}
+.Next-page{
+  padding: 10px 40px;
+   border-radius: 2px;
+  border: none;
+   background-color: rgb(22, 134, 130);
+   color:white;
+   margin-right: 15px;
+   cursor: pointer;
+
+
+}
+.numbers button{
+  padding: 9px 14px;
+
+  border-radius: 2px;
+  border: none;
+    background-color: rgb(22, 134, 130);
+   color:white;
+   margin: 2px 5px;
+   cursor: pointer;
+}
+footer{
+  background-color: rgb(246, 240, 240);
+
+ 
+}
+.right-side{
+  width: 300px;
+  padding-top: 20px;
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+
+}
+.links-contain{
+  display: flex;
+  justify-content: space-between;
+
+}
+.left-side{
+
+  width: 300px;
+  padding-top: 20px;
+}
+.nav{
+
+  margin-top: 8px;
+  padding: 5px 14px;
+}
+.nav ul li{
+  list-style: none;
+  cursor: pointer;
+  padding: 2px;
+   font-size: 12px;
+   color: gray;
+}
+.footer-container{
+display: flex;
+justify-content: center;
+
+gap: 100px;
+}
+.design{
+      margin-top: 32px;
+    text-align: end;
+
+}
+p{
+  font-size: 12px;
+  color: gray;
+  word-spacing: 2px;
+  line-height: 1.6;
+}
+.copy-right{
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.devlop{
+  margin-top: 15px;
+  text-align: start;
+}
+.copy-right{
+  text-align: end;
+}
+i{
+  font-size: x-large;
+  cursor: pointer;
+}
+.nav ul li:hover{
+  text-decoration: underline;
+color: black;
+  
+}
+/* Tablet screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+  nav {
+    margin: 5px 40px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card {
+    grid-template-columns: 1fr 1fr; /* 2 columns on tablet */
+    row-gap: 20px;
+  }
+
+  main {
+    margin: 30px 40px;
+  }
+
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px){
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .btn{
+    margin: 1px -20px;
+  }
+  footer h3 {
+       margin-left: 99px;
+  }
+  .devlop{
+   margin-left: 103px;
+   text-align: center;
+  }
+  .viedo-container {
+ 
+    gap: 15px;
+    
+  };
+
+  .card {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+    row-gap: 20px;
+  }
+
+
+  .img-conatiner img{
+    width:300px;
+    height:180px;
+  }
+
+  .login-container {
+    height: 30vh;
+  }
+  
+ 
+}
+
+/* Very small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+  nav {
+    margin: 5px 20px;
+  }
+
+  .perview,
+  .Next-page {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+
+  .numbers button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+ 
+}
+
+
+/* Tablet screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .date-time {
+    padding: 5px 8px; /* Thoda kam padding */
+    font-size: 14px;  /* Font thoda bada readability ke liye */
+  }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .date-time{
+    display: flex; 
+     width: 284px;  
+    justify-content: space-between;                   
+    font-size: 16px;  
+  
+  }
+}
+
