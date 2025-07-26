@@ -3,6 +3,9 @@ Title: Dynamic Image Card Generator with Date & Time
 
 ![Image](https://github.com/user-attachments/assets/ff37b814-a00e-405b-b311-82c333a85cf2)
 
+![Image](https://github.com/user-attachments/assets/f4bf0a27-d82c-4d99-b110-676935f33e17)
+
+![Image](https://github.com/user-attachments/assets/3331b8d7-04bb-4b91-a78a-0d2951298040)
 5-bc47-a7cc057c32e0)
 
 Description:
